@@ -90,33 +90,66 @@ h1 {
         </ul>
       </section> */
 
-.section2 {
+.section2{
+  width: 100%;
   position: relative;
+  
 }
 
-/* .section2 img {
-  position: relative;
-} */
-
-/* #p1, #p2, #p3 {
-  position: absolute;
-  top: 100px;
-  left: 0px;
+.section2 img {
+  /* position: relative; */
   width: 100%;
-  z-index: 100;
-} */
+  }
 
-#ingredients {
+#checkbox {
   position: absolute; 
-  text-align: center;
+  text-align: left;
   width: 100%;
   height: 0%;
-  margin: auto;
+  color: rgb(167, 121, 61);
+  margin-top: 41px;
+  margin-left:6%;
+  line-height: 2.0;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 51;
+}
+
+#checkbox1 {
+  position: absolute; 
+  /* position: sticky; */
+  text-align: left;
+  width: 100%;
+  height: 0%;
+  color: rgb(167, 121, 61);
+  margin-top: 41px;
+  margin-left:50%;
+  line-height: 2.0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 51;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
+
+#section3 {
+  display: flex;
+  
+  /* position: relative; */
+  margin-left: auto;
+  margin-right: auto;
+  padding:0;
+  width: 100%;
+}
+
+#section3 img{
+  align-items: stretch;
 }
 
 footer p{
