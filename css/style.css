@@ -91,23 +91,27 @@ h1 {
       </section> */
 
 .section2{
-  width: 100%;
+  width: 1600px;
+  height: 300px;
   position: relative;
-  
+  font-family: 'Patrick Hand', cursive;
 }
 
 .section2 img {
   /* position: relative; */
-  width: 100%;
+  width: 1600px;
+  height: 300px;
   }
 
 #checkbox {
   position: absolute; 
   text-align: left;
-  width: 100%;
-  height: 0%;
-  color: rgb(167, 121, 61);
-  margin-top: 41px;
+  /* width: 100%;
+  height: 0%; */
+  width: 1600px;
+  height: 300px;
+  color: rgba(83, 81, 79, 0.80);
+  margin-top: 35px;
   margin-left:6%;
   line-height: 2.0;
   top: 0;
@@ -121,11 +125,13 @@ h1 {
   position: absolute; 
   /* position: sticky; */
   text-align: left;
-  width: 100%;
-  height: 0%;
-  color: rgb(167, 121, 61);
-  margin-top: 41px;
-  margin-left:50%;
+  /* width: 100%;
+  height: 0%; */
+  width: 1600px;
+  height: 300px;
+  color: rgba(83, 81, 79, 0.80);
+  margin-top: 35px;
+  margin-left:30%;
   line-height: 2.0;
   top: 0;
   left: 0;
@@ -152,20 +158,74 @@ input[type=checkbox]:checked + label.strikethrough{
   align-items: stretch;
 }
 
+#textandbutton {
+  display: flex;
+  height: 60px;
+}
+
+#textandbutton img{
+  padding-right: 15px;
+}
+
+/* #footer-text {
+  display: flex;
+}
+
+#footer-rights {
+  display: flex;
+} */
+
 footer p{
   color: rgb(75, 72, 72);
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(126, 128, 131);
+  line-height: 1.5;
+}
+
+button {
+  font-family: 'Abel', sans-serif;
+  color: white;
+  background-color: #ad5a49;
+  border: none;
+  height: 50px;
+  width: 180px;
+  margin-left: 32%;
+  text-decoration: none;
+  padding: 5px 30px;
+  font-size: 14px;
+
 }
 
 h3 {
   font-size: large;
+  padding-bottom: 10px;
+}
+
+#footer-logo img{
+  /* display: flex;
+  flex-wrap: wrap; */
+  text-align: center;
+  float: left;
+  margin-top: 70px;
+}
+
+#footer-logo hr {
+
 }
 
 /* <footer>
+      <section id="textandbutton">
       <img src="./img/van-pic.png" alt="picture of Vanessa">
+      <section id="footer-text">
       <h3>Vanessa Stevenson</h3>
       <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      </section>
       <button>SHARE RECIPE</button>
+    </section>
+    <section id="footer-rights">
       <img src="./img/small-logo.png" alt="knife and fork icon">
       <p>Delicious &copy; 2013 . All Rights Reserved <br>
       Proudly published with Ghost.</p>
+    </section>
     </footer> */
